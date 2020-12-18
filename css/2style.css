@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #FFFFFF;
+  color: #fff;
+  font-family: arial;
+  letter-spacing: 2px;
+}
+
+.qwrapper {
+  position: absolute;
+  top: 85%;
+  width: 90%;
+  left: 5%;
+  margin-top: -87.5px;
+  font-size: 20px;
+  height: 175px;
+}
+
+.qwave {
+  color: #9FFFFFF;
+  -webkit-animation: 0.5s color infinite;
+          animation: 0.5s color infinite;
+}
+
+@-webkit-keyframes color {
+  50% {
+    color: #FFFFFF;
+  }
+}
+
+@keyframes color {
+  50% {
+    color: #FFFFFF;
+  }
+}
